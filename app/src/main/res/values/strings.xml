@@ -2,4 +2,6 @@
     <string name="app_name">ViewModelApp</string>
     <string name="action_settings">Settings</string>
     <string name="title_add">Add</string>
+    <string name="add_b">Add B</string>
+    <string name="add_a">Add A</string>
 </resources>

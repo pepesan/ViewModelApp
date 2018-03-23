@@ -54,9 +54,14 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_add) {
+        if (id == R.id.action_add_A) {
             mViewModel.scoreTeamA = mViewModel.scoreTeamA + 1;
             displayForTeamA(mViewModel.scoreTeamA);
+            return true;
+        }
+        if (id == R.id.action_add_B) {
+            mViewModel.scoreTeamB = mViewModel.scoreTeamB + 1;
+            displayForTeamB(mViewModel.scoreTeamB);
             return true;
         }
 
